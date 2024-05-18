@@ -31,7 +31,8 @@ function checkPalindrome(inputValue){
 }
 
 // Program
-checkBtn.addEventListener('click', () => {
+checkBtn.addEventListener('click', (e) => {
+    e.preventDefault();
     if(userInput.value === ''){
         alert('Please input a value');
         return;

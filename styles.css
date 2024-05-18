@@ -90,3 +90,19 @@ footer{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+
+@media (max-width:360px){
+    h1{
+        font-size: 1rem;
+    }
+    p, form{  
+        font-size: 0.8rem;
+    }
+    input{
+        width: 100%;
+        font-size: 0.7rem;
+    }
+    button{
+        font-size: 0.7rem;
+    }
+}
